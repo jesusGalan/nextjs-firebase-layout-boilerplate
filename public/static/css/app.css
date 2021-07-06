@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "PT Sans 400";
+    src: url("../../fonts/PTSans/PTSans-Regular.ttf");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "PT Sans 700";
+    src: url("../../fonts/PTSans/PTSans-Regular.ttf");
+    font-weight: 700
+}
+
+@font-face {
+    font-family: "Roboto Slab 400";
+    src: url("../../fonts/Roboto-Slab/RobotoSlab-Light.ttf");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Roboto Slab 700";
+    src: url("../../fonts/Roboto-Slab/RobotoSlab-Light.ttf");
+    font-weight: 700
+}
+
+/*
+ Next is going to load this stylesheet automatically
+ for the page (in pages folder) component called App.
+*/
+
+.listado-productos {
+    background-color: #f3f3f3;
+}
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    padding: 5rem 0;
+    margin: 0 auto;
+}
+.bg-white {
+    background-color: #FFF;
+}
